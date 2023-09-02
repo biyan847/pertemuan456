@@ -6,6 +6,7 @@ public class denganvariable {
         for (var value : values){
             total += value;
         }
+        
         int finalValue = total / values.length;
 
         if(finalValue >=75){
